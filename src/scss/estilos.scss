@@ -13,9 +13,37 @@ html,
 body {
   margin: 0;
   padding: 0;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #130808;
+  color: rgb(241, 211, 74);
 }
 
 ::selection {
   background-color: #30cac073;
   color: #130808;
+}
+
+#contenedor {
+  margin: 0;
+  text-align: center;
+  letter-spacing: 0.5rem;
+}
+
+#titulo {
+  margin-bottom: 3em;
+}
+
+.cambiada {
+  color: rgb(223, 135, 201);
+  font-size: 1.3em;
+}
+
+.consonante-cambiada {
+  color: rgb(175, 223, 135);
+}
+
+#autora {
+  text-transform: uppercase;
+  font-size: 0.8em;
+  margin-top: 3em;
 }
